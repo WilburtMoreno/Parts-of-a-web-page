@@ -1,0 +1,14 @@
+ html, body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+#content {
+    min-height: 100%;
+    margin: 0 0 -50px 0;
+}
+#footer, #push {
+    height: 50px;
+    background-color: #999;
+}
+/*** source: <!-- source https://css-tricks.com/couple-takes-sticky-footer/--> **/

@@ -1,0 +1,12 @@
+
+body {
+    text-align:center;
+}
+#content {
+    background-color: rgb(3, 214, 84);
+    min-height: calc(100vh - 70px);
+}
+footer {
+    background-color: rgb(137, 219, 164);
+    height: 50px;
+}

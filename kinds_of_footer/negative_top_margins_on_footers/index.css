@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  #content {
+    min-height: 100%;
+    background-color: rgb(230, 109, 109);
+  }
+  #content-inner {
+      background-color: rgb(120, 172, 107);
+    padding: 20px 20px 70px 20px;
+  }
+  #negative-top-margins-on-footers {
+    background-color: rgb(214, 112, 240);
+    height: 50px;
+    margin: -50px 0 0 0;
+  }
+ /***
+This technique did not require a push element,
+but instead, required an extra wrapping element
+around the content in which to apply matching
+bottom padding to. Again to prevent negative
+margin from lifting the footer above any content.
+
+  */
