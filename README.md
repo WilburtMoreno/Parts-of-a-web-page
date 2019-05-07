@@ -6,6 +6,7 @@ And how to implment it in every-way
 such as 
 
 * Header
+* nav
 * content
 * footer
 * And more
